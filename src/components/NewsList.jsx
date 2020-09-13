@@ -13,7 +13,7 @@ const NewsList = memo(({ category }) => {
         setLoading(true);
         const query = category === "all" ? "" : `&category=${category}`;
         const response = await Axios.get(
-          `http://newsapi.org/v2/top-headlines?country=kr${query}&apiKey=e105dce0debe457b82f5509ad9534c52`
+          `https://newsapi.org/v2/top-headlines?country=kr${query}&apiKey=e105dce0debe457b82f5509ad9534c52`
         );
         setArticles(response.data.articles);
       } catch (e) {
