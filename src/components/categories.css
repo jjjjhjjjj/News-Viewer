@@ -1,0 +1,37 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.category-list {
+  margin: 30px 5%;
+  display: flex;
+  align-items: center;
+}
+
+.category-list li {
+  margin-right: 15px;
+}
+
+.category-list li a {
+  display: block;
+  padding: 2px 0;
+  text-decoration: none;
+  font-size: 22px;
+  color: #666666;
+}
+
+.category-list li a.active {
+  font-weight: 700;
+  border-bottom: 3px solid #95c8dd;
+}
+
+@media (max-width: 768px) {
+  .category-list {
+    display: block;
+  }
+  .category-list li a {
+    display: inline-block;
+  }
+}
