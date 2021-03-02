@@ -11,6 +11,6 @@
 
 - 메인 화면
 ![메인](./img/viewer.png)
-    - axois로 API 호출
+    - Axois로 API 호출
     - Router를 이용하여 다양한 카테고리 구현
-    - _localhost가 아니면 API 공백 리턴_
+    - _Localhost가 아니면 API 공백 리턴_
